@@ -103,6 +103,10 @@ li {
     margin-bottom: 15px;
 }
 
+.max-w50 {
+    max-width: 50px;
+}
+
 /* Header */
 header {
     background: rgba(0, 0, 0, 0.5);
@@ -205,8 +209,29 @@ footer {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    
+    align-items: center;
+}
 
+.footer-song-playing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
+
+.footer-song-playing ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer-song-playing nav ul li {
+    display: inline-block;
+}
+
+.song-name {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
 
