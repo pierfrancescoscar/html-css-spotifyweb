@@ -41,8 +41,16 @@ li {
     font-weight: 600;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .grey {
     color: #7d7f84;
+}
+
+.pr-10 {
+    padding-right: 10px;
 }
 
 .pt-25 {
@@ -79,9 +87,19 @@ main {
     flex-direction: column;
 }
 
-.main-container .debug-box {
-    background-color: rebeccapurple;
+.main-spotify-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
+.main-spotify-navigation li {
+    display: inline-block;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+
 
 /* Aside */
 
