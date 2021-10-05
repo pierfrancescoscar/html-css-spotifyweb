@@ -194,7 +194,19 @@ aside li {
 
 /* Footer */
 footer {
+    display: flex;
+    align-items: center;
     height: 90px;
-    background-color: lightpink;
+    background-color: #282828;
+    padding: 10px;
+}
+
+.footer-content-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+
+
 }
 
