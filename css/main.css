@@ -63,6 +63,10 @@ li {
     display: block;
 }
 
+.br-50 {
+    border-radius: 50%;
+}
+
 .w-16 {
     width: 16%;
 }
@@ -81,6 +85,10 @@ li {
 
 .pb-10 {
     padding-bottom: 10px;
+}
+
+.pb-25 {
+    padding-bottom: 25px;
 }
 
 .pt-15 {
@@ -141,6 +149,12 @@ main {
 }
 
 .created-foru-cards-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.popular-artist-cards-container {
     display: flex;
     flex-direction: row;
     width: 100%;
