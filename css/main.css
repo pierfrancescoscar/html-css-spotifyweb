@@ -99,6 +99,19 @@ li {
     padding-top: 25px;
 }
 
+.pl-25 {
+    padding-left: 25px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.px-25 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 .mb-15 {
     margin-bottom: 15px;
 }
@@ -228,10 +241,35 @@ footer {
     display: inline-block;
 }
 
+.footer-music-bar nav ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+.footer-music-bar nav ul li:nth-child(3) {
+    display: inline-block;
+    font-size: 30px;
+}
+
 .song-name {
     font-size: 10px;
     font-weight: 600;
 }
 
+.music-player-bar {
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    background: #5a5a5a;
+    overflow: hidden;
+    cursor: pointer;
+}
 
+.while-playing-bar {
 
+    width: 30%;
+    height: 5px;
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+    cursor: pointer;
+}
