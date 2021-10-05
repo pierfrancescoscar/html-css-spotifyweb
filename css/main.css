@@ -95,9 +95,6 @@ li {
     margin-bottom: 15px;
 }
 
-
-
-
 /* Header */
 header {
     background: rgba(0, 0, 0, 0.5);
@@ -112,6 +109,7 @@ header {
 main {
     display: flex;
     width: 100%;
+    height: calc(100vh - 90px)
 }
 
 .main-container {
@@ -139,9 +137,11 @@ main {
     width: 100%;
 }
 
-
-
-
+.created-foru-cards-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 
 /* Aside */
 
@@ -174,18 +174,9 @@ aside li {
     flex-grow: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Footer */
-
-footer .debug-box {
+footer {
+    height: 90px;
     background-color: lightpink;
 }
+
