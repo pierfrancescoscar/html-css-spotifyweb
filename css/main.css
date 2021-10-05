@@ -273,3 +273,17 @@ footer {
     overflow: hidden;
     cursor: pointer;
 }
+
+
+
+.footer-music-volume nav ul li {
+    display: inline-block;
+
+}
+.footer-music-volume .music-player-bar .while-playing-bar {
+    display: flex;
+}
+
+
+
+
