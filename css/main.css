@@ -1,0 +1,43 @@
+/* General Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Debug Box */
+
+.debug-box {
+    height: 50px;
+    background: dodgerblue;
+    border: 1px solid black;
+}
+
+/* Header */
+
+/* Main */
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    width: 70%;
+}
+
+/* Aside */
+
+.aside-container {
+    display: flex;
+    width: 30%;
+}
+
+aside {
+    width: 250px;
+}
+
+aside .debug-box {
+    background: gold;
+}
