@@ -15,6 +15,7 @@
 
 /* Header */
 
+
 /* Main */
 
 main {
@@ -23,15 +24,22 @@ main {
 }
 
 .main-container {
+    
     display: flex;
-    width: 70%;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+.main-container .debug-box {
+    background-color: rebeccapurple;
 }
 
 /* Aside */
 
 .aside-container {
     display: flex;
-    width: 30%;
+    
 }
 
 aside {
@@ -40,4 +48,10 @@ aside {
 
 aside .debug-box {
     background: gold;
+}
+
+/* Footer */
+
+footer .debug-box {
+    background-color: lightpink;
 }
