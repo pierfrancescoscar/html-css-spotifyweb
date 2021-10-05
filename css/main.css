@@ -108,8 +108,10 @@ header {
 
 main {
     display: flex;
+    flex-grow: 1;
     width: 100%;
-    height: calc(100vh - 90px)
+    height: calc(100vh - 90px);
+    
 }
 
 .main-container {
@@ -117,6 +119,7 @@ main {
     display: flex;
     width: 100%;
     flex-direction: column;
+    overflow: auto;
 }
 
 .main-spotify-navigation {
@@ -156,6 +159,7 @@ aside {
     flex-direction: column;
     width: 250px;
     height: 100%;
+    overflow: auto;
     padding: 25px;
 
 }
