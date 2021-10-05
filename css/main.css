@@ -9,6 +9,16 @@
 body {
     background: #141922;
     color: white;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
 }
 
 /* Debug Box */
@@ -34,6 +44,15 @@ body {
 .grey {
     color: #7d7f84;
 }
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
 
 
 
@@ -73,7 +92,20 @@ main {
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
     width: 250px;
+    height: 100%;
+    padding: 25px;
+
+}
+
+aside li {
+    margin-bottom: 15px;
+}
+
+.spotify-logo img {
+    width: 70%;
 }
 
 .spotify-playlist {
@@ -81,6 +113,8 @@ aside {
     flex-direction: column;
     flex-grow: 1;
 }
+
+
 
 
 
