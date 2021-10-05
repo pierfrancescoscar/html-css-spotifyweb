@@ -45,12 +45,46 @@ li {
     text-transform: uppercase;
 }
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .grey {
     color: #7d7f84;
 }
 
+.ta-center {
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.w-16 {
+    width: 16%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
 .pr-10 {
     padding-right: 10px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
 }
 
 .pt-25 {
@@ -98,6 +132,14 @@ main {
     padding-right: 10px;
     font-weight: 600;
 }
+
+.music-card-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
 
 
 
