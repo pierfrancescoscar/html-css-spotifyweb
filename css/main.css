@@ -380,6 +380,7 @@ footer {
     background: #5a5a5a;
     overflow: hidden;
     cursor: pointer;
+    
 }
 
 .while-playing-bar {
@@ -442,6 +443,13 @@ footer {
 .play:hover {
     transform: scale(1.1);
 }
+
+.while-playing-bar:hover {
+    background-color: greenyellow;
+}
+
+
+
 
 
 
