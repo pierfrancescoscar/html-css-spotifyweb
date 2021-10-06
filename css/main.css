@@ -185,15 +185,33 @@ main {
     font-weight: 600;
 }
 
+/* White Hover Elements  */
+
 .main-spotify-navigation a:hover {
     color: white;
 }
 
+.spotify-main-nav a:hover {
+    color: white;
+}
+
+.spotify-playlist-nav a:hover {
+    color: white;
+}
+
+.app-install .download:hover {
+    color: white;
+}
+
+.app-install span:hover {
+    color: white;
+}
+
+/* Music Cards */
+
 .music-cards-container {
     display: flex;
     flex-direction: row;
-    
-    
 }
 
 .music-card {
