@@ -159,8 +159,6 @@ header {
     transform: scale(1.1);
 }
 
-
-
 /* Main */
 
 main {
@@ -326,7 +324,6 @@ aside li {
     font-family: 'Font Awesome 6 Free';
 }
 
-
 .account-name {
     display: flex;
     align-items: center;
@@ -464,6 +461,31 @@ footer {
 
 .while-playing-bar:hover {
     background-color: greenyellow;
+}
+
+
+
+/* RESPONSIVE */
+
+/* From Desktop to Tablet */
+
+@media screen and (min-width: 878px) and (max-width: 1024px) {
+
+    .main-spotify-navigation nav ul li a {
+        font-size: 10px;
+    }
+
+    .music-cards-container {
+        width: 100%;
+    }
+
+    .music-card {
+        width: 50%;
+    }
+
+
+
+
 }
 
 
