@@ -191,6 +191,24 @@ main {
     font-weight: 600;
 }
 
+.in-evidence {
+    display: flex;
+    flex-direction: column;
+}
+
+.in-evidence::after{
+    content: '';
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 3px;
+    width: 40px;
+    background: greenyellow;
+    margin-top: 10px;
+}
+
+
+
 /* White Hover Elements  */
 
 .main-spotify-navigation a:hover {
