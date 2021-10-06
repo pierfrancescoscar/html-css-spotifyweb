@@ -155,6 +155,12 @@ header {
     width: calc(100% - 250px);
 }
 
+.upgrade-button:hover {
+    transform: scale(1.1);
+}
+
+
+
 /* Main */
 
 main {
@@ -247,10 +253,6 @@ main {
     transform: translate(-50%, -50%);
 }
 
-
-
-
-
 .created-foru-cards-container {
     display: flex;
     flex-direction: row;
@@ -305,6 +307,7 @@ aside li {
     font-weight: 600;
     font-family: 'Font Awesome 6 Free';
 }
+
 
 .account-name {
     display: flex;
@@ -426,6 +429,18 @@ footer {
     align-items: center;
     
 }
+
+.heart:hover {
+    color: white;
+
+}
+
+.folder:hover {
+    color: white;
+}
+
+
+
 
 
 
