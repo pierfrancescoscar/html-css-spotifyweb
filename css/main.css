@@ -104,6 +104,10 @@ li {
     padding-top: 25px;
 }
 
+.pt-100 {
+    padding-top: 100px;
+}
+
 .pl-25 {
     padding-left: 25px;
 }
@@ -132,6 +136,10 @@ header {
     height: 70px;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 250px);
 }
 
 /* Main */
