@@ -15,7 +15,8 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #7d7f84;
+    
 }
 
 li {
@@ -182,6 +183,10 @@ main {
     display: inline-block;
     padding-right: 10px;
     font-weight: 600;
+}
+
+.main-spotify-navigation a:hover {
+    color: white;
 }
 
 .music-cards-container {
