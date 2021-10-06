@@ -439,6 +439,10 @@ footer {
     color: white;
 }
 
+.play:hover {
+    transform: scale(1.1);
+}
+
 
 
 
