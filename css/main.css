@@ -10,6 +10,7 @@ body {
     background: #141922;
     color: white;
     font-size: 14px;
+    
 }
 
 a {
@@ -43,6 +44,10 @@ li {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.flex {
+    display: flex;
 }
 
 .flex-col {
@@ -162,8 +167,13 @@ main {
 .music-cards-container {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    
 }
+
+.music-card {
+    width: calc(100% / 6 - 20px);
+}
+
 
 .created-foru-cards-container {
     display: flex;
@@ -201,6 +211,37 @@ aside li {
 
 .spotify-logo img {
     width: 70%;
+}
+
+.spotify-main-nav nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+.spotify-main-nav li img {
+    vertical-align: middle;
+    width: 10%;
+}
+
+.spotify-playlist-nav li:first-child::before {
+    content: '\f0fe';
+    font-size: 35px;
+    vertical-align: middle;
+    font-weight: 600;
+    font-family: 'Font Awesome 6 Free';
+
+
+}
+
+.account-name {
+    display: flex;
+    align-items: center;
+}
+
+.account-name img {
+    width: 10%;
+    background: grey;
+    
 }
 
 .spotify-playlist {

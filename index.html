@@ -35,9 +35,18 @@
 
                     <nav class="spotify-main-nav pt-25">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Cerca</a></li>
-                            <li><a href="#">La tua libreria</a></li>
+                            <li>
+                                <img src="./img/home.svg" alt="home-icon">
+                                <a class="pl-10" href="#">Home</a>
+                            </li>
+                            <li>
+                                <img src="./img/search.svg" alt="search-icon">
+                                <a class="pl-10 grey"href="#">Cerca</a>
+                            </li>
+                            <li>
+                                <img src="./img/libreria.svg" alt="library-icon">
+                                <a class="pl-10 grey" href="#">La tua libreria</a>
+                            </li>
                         </ul>
                     </nav>
 
@@ -45,14 +54,15 @@
                         <h3 class="mb-15 uppercase">Playlist</h3>
                         <nav class="spotify-playlist-nav">
                             <ul>
-                                <li><a href="#">Crea Playlist</a></li>
-                                <li><a href="#">Nome playlist</a></li>
-                                <li><a href="#">Nome playlist</a></li>
-                                <li><a href="#">Nome playlist</a></li>
-                                <li><a href="#">Nome playlist</a></li>
-                                <li><a href="#">Nome playlist</a></li>
-                                <li><a href="#">Nome playlist</a></li>
-                                <li><a href="#">Nome playlist</a></li>
+                                
+                                <li class="grey"><a class="grey pl-10" href="#">Crea Playlist</a></li>
+                                <li><a class="grey" href="#">Nome playlist</a></li>
+                                <li><a class="grey" href="#">Nome playlist</a></li>
+                                <li><a class="grey" href="#">Nome playlist</a></li>
+                                <li><a class="grey" href="#">Nome playlist</a></li>
+                                <li><a class="grey" href="#">Nome playlist</a></li>
+                                <li><a class="grey" href="#">Nome playlist</a></li>
+                                <li><a class="grey" href="#">Nome playlist</a></li>
                             </ul>
                         </nav>
 
@@ -60,13 +70,15 @@
 
                     <div class="spotify-account-name">
                             <div class="app-install mb-15">
-                                Installa app
+                                <i class="grey far fa-arrow-alt-circle-down"></i>
+                                <span class="grey">Installa app</span>
                             </div>
 
                             <hr class="mb-15">
 
                             <div class="account-name">
-                                <h4>John Doe</h4>
+                                <img class="br-50" src="./img/profile.svg" alt="profile-icon">
+                                <h4 class="pl-10">Pierfrancesco Scarinci</h4>
                             </div>
                     </div>
                 
@@ -92,7 +104,7 @@
                 </div>
 
             <div class="music-cards-container">
-                <div class="music-card-1 w-16 pl-10 pt-25">
+                <div class="music-card  pl-10 pt-25">
 
                     <div class="music-img">
                     <img class="w-100" src="./img/metal_lifting.jpg" alt="metal-card">
@@ -107,7 +119,7 @@
                     </div>
 
                 </div>
-                <div class="music-card-2 w-16 pl-10 pt-25">
+                <div class="music-card pl-10 pt-25">
 
                     <div class="music-img">
                     <img class="w-100" src="./img/stranger.jpeg" alt="strangerthings-soundtrack">
@@ -122,7 +134,7 @@
                     </div>
 
                 </div>
-                <div class="music-card-3 w-16 pl-10 pt-25">
+                <div class="music-card pl-10 pt-25">
 
                     <div class="music-img">
                     <img class="w-100" src="./img/aquietplace.jpeg" alt="aquietplace-music">
@@ -137,7 +149,7 @@
                     </div>
 
                 </div>
-                <div class="music-card-4 w-16 pl-10 pt-25">
+                <div class="music-card pl-10 pt-25">
 
                     <div class="music-img">
                     <img class="w-100" src="./img/split.jpeg" alt="split-music">
@@ -152,7 +164,7 @@
                     </div>
 
                 </div>
-                <div class="music-card-5 w-16 pl-10 pt-25">
+                <div class="music-card pl-10 pt-25">
 
                     <div class="music-img">
                     <img class="w-100" src="./img/cure.jpeg" alt="cureforwellness-music">
@@ -167,7 +179,7 @@
                     </div>
 
                 </div>
-                <div class="music-card-6 w-16 pl-10 pt-25">
+                <div class="music-card pl-10 pt-25">
 
                     <div class="music-img">
                     <img class="w-100" src="./img/sinister.jpeg" alt="sinister-music">
@@ -192,7 +204,7 @@
 
             <div class="created-foru-cards-container">
 
-                <div class="music-foru-card-1 w-16 pl-10 pt-25">
+                <div class="music-card pl-10 pt-25">
 
                     <div class="music-foru-img">
                         <img class="w-100" src="./img/radar.jpeg" alt="release-radar">
@@ -204,7 +216,7 @@
 
                 </div>
 
-                <div class="music-foru-card-2 w-16 pl-10 pt-25">
+                <div class="music-card pl-10 pt-25">
 
                     <div class="music-foru-img">
                         <img class="w-100" src="./img/mixdaily.jpeg" alt="daily-mix">
@@ -226,7 +238,7 @@
 
             <div class="popular-artist-cards-container pb-25">
 
-                <div class="popular-artist-card-1 w-16 pl-10 pt-25">
+                <div class="music-card pl-10 pt-25">
 
                     <div class="popular-artist-img">
                         <img class="w-100 br-50" src="./img/youg.jpeg" alt="lanadelrey-yab">
@@ -238,13 +250,13 @@
 
                 </div>
 
-                <div class="popular-artist-card-2 w-16 pl-10 pt-25">
+                <div class="music-card pl-10 pt-25">
 
                     <div class="popular-artist-img">
                         <img class="w-100 br-50" src="./img/einaudi.jpeg" alt="einaudi">
                     </div>
 
-                    <div class="music-foru-card-title">
+                    <div class="popular-artist-card-title">
                         <h4 class="ta-center pt-15 pb-10">Ludovico Einaudi</h4>
                     </div>
 
