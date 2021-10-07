@@ -597,7 +597,7 @@ footer {
         justify-content: center;
         align-items: center;
 
-        }
+    }
 
     .footer-music-bar i {
         font-size: 20px;
@@ -606,6 +606,16 @@ footer {
 
     .footer-music-bar nav ul li .play {
         font-size: 30px;
+    }
+
+    .song-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .favourite {
+        padding-left: 10px;
     }
 
     /* Aside Fix */
@@ -626,6 +636,7 @@ footer {
     .favicon {
         display: block;
         filter: invert(1);
+        cursor: pointer;
     }
 
     .spotify-main-nav {
@@ -641,6 +652,7 @@ footer {
     .spotify-main-nav li img {
         vertical-align: middle;
         width: 100%;
+        cursor: pointer;
     }
 
     .spotify-playlist {
@@ -655,6 +667,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        cursor: pointer;
     }
 
     hr {
@@ -667,6 +680,7 @@ footer {
     .account-name img {
         width: 100%;
         background: grey;
+        cursor: pointer;
 
 
 }
