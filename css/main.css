@@ -472,21 +472,23 @@ footer {
 @media screen and (min-width: 878px) and (max-width: 1024px) {
 
     .main-spotify-navigation nav ul li a {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .music-cards-container {
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
     }
 
     .music-card {
-        width: 50%;
+        width: calc(100% / 3);
+        padding: 10px 15px;
     }
 
-
-
-
 }
+
+
 
 
 
