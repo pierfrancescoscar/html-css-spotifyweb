@@ -516,21 +516,93 @@ footer {
     /* Footer Music Bar Responsive Fix */
 
     .footer-music-bar ul {
-        
+
         display: flex;
         justify-content: center;
         align-items: center;
 
         }
 
+}
 
+/* Mobile Responsive */
 
+@media screen and (min-width: 530px) and (max-width: 638px) {
 
+    h2 {
+        font-size: 14px;
+    }
 
+    header {
+        z-index: 1;
+    }
 
+    .main-spotify-navigation nav ul li a {
+        font-size: 9px;
+        
+    }
+
+    .main-spotify-navigation nav ul {
+        text-align: center;
+        
+    }
+
+    .music-cards-container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .music-card {
+        width: calc(100%);
+        padding: 10px 15px;
+    }
+
+    .created-foru-cards-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .created-foru-title span {
+        font-size: 11px;
+    }
+
+    .popular-artist-cards-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .popular-artist-title span {
+        font-size: 11px;
+    }
+
+    /* Footer Fix */
+
+    .footer-music-bar ul {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        }
+
+    .footer-music-bar i {
+        font-size: 20px;
+
+    }
+
+    .footer-music-bar nav ul li .play {
+        font-size: 30px;
+    }
 
 
 }
+
+
+
+
+
+
 
     
 
